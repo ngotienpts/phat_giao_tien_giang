@@ -2,6 +2,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // back top
     var backTop = document.querySelector("#back-top");
 
+    // search
+    var searchPc = document.querySelector(".js__searchPc");
+    var showSearchPc = document.querySelector(".js__showSearchPc");
+
+    var searchMb = document.querySelector(".js__searchMb");
+    var showSearchMb = document.querySelector(".js__showSearchMb");
+
+    // sub menu
+    const subMenu = document.querySelector(".js__subMenuContainer");
+
     // slide
     var oneSlides = document.querySelectorAll(".js__oneSlidesContainer");
     var autoSlides = document.querySelectorAll(".js__swiperAutoContainer");
@@ -19,6 +29,54 @@ document.addEventListener("DOMContentLoaded", function () {
                 backTop.onclick = function () {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
+                };
+            }
+
+            // search pc
+            if (showSearchPc && searchPc) {
+                const focusElement =
+                    searchPc.querySelector(".js__focusSearchPc");
+                if (focusElement) {
+                    showSearchPc.onclick = () => {
+                        showSearchPc.classList.toggle("active");
+                        searchPc.classList.toggle("active");
+                        focusElement.focus();
+                        if (showSearchPc.classList.contains("active")) {
+                            focusElement.value = "";
+                        }
+                    };
+                }
+            }
+
+            // search mb
+            if (showSearchMb && searchMb) {
+                const focusElement =
+                    searchMb.querySelector(".js__focusSearchMb");
+                if (focusElement) {
+                    showSearchMb.onclick = () => {
+                        showSearchMb.classList.toggle("active");
+                        searchMb.classList.toggle("active");
+                        focusElement.focus();
+                        if (showSearchMb.classList.contains("active")) {
+                            focusElement.value = "";
+                        }
+                    };
+                }
+            }
+
+            // submenu
+            if (subMenu) {
+                var menu = subMenu.querySelector(".js__subMenu");
+                var showSubMenu = subMenu.querySelector(".js__showSubMenu");
+                var closeSubMenu = subMenu.querySelector(".js__closeSubMenu");
+
+                showSubMenu.onclick = function () {
+                    menu.classList.add("active");
+                    bodyEle.classList.add("overflow-hidden");
+                };
+                closeSubMenu.onclick = function () {
+                    menu.classList.remove("active");
+                    bodyEle.classList.remove("overflow-hidden");
                 };
             }
         },
@@ -144,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 slidesPerView: 2,
                             },
                             768: {
-                                slidesPerView: 3,
+                                slidesPerView: 4,
                             },
                             1024: {
                                 slidesPerView: 4,
