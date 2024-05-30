@@ -391,8 +391,15 @@ img {
   padding-bottom: 100%;
 }
 
+.image-wrapper-150 {
+  position: relative;
+  display: block;
+  padding-bottom: 150%;
+}
+
 .image-wrapper img,
-.image-wrapper-full img {
+.image-wrapper-full img,
+.image-wrapper-150 img {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -1871,14 +1878,44 @@ img {
   font-size: 15px;
 }
 
+.section-tredenary__container img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.section-quadenary__content {
+  background-color: #f1ede6;
+  padding: 40px 20px;
+}
+.section-quadenary .swiper-button-next,
+.section-quadenary .swiper-button-prev {
+  top: 25px;
+  width: 40px;
+  height: 40px;
+  background: #e5b764;
+  border-radius: 7px;
+  color: #fff;
+}
+.section-quadenary .swiper-button-prev,
+.section-quadenary .swiper-rtl .swiper-button-next {
+  left: auto;
+  right: 60px;
+}
+.section-quadenary .swiper-button-next:after,
+.section-quadenary .swiper-button-prev:after {
+  font-size: 15px;
+}
+
 #back-top {
   position: fixed;
   right: 1rem;
   bottom: 2rem;
   width: 2.5rem;
   height: 2.5rem;
-  background: #fb0505;
+  background: #69452b;
   border-radius: 0.25rem;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1897,8 +1934,46 @@ img {
   -o-border-radius: 50%;
 }
 
-.footer {
-  height: 100px;
+.footer-wrapper {
+  padding-top: 70px;
+}
+.footer-navbar {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+.footer-content__left .ytb-page {
+  background-color: #cc0000;
+  border-radius: 4px;
+  height: 50px;
+  padding: 15px;
+}
+.footer-content__left .ytb-page a:hover {
+  color: #fff;
+}
+.footer-content__center-list {
+  padding-left: 30px;
+}
+.footer-content__center-list li {
+  list-style-type: disc;
+}
+.footer-content__right {
+  margin-top: 50px;
+}
+.footer-gradient {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(180deg, #fff 40%, transparent 100%);
+  width: 100%;
+  height: 100%;
+}
+.footer-bg {
+  margin-top: -16%;
+}
+.footer-bg img {
+  width: 100%;
+  height: auto !important;
 }
 
 /*# sourceMappingURL=style.css.map */

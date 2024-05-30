@@ -443,3 +443,38 @@
         font-size: 15px;
     }
 }
+
+.section-tredenary {
+    &__container {
+        img {
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+    }
+}
+
+.section-quadenary {
+    &__content {
+        background-color: #f1ede6;
+        padding: 40px 20px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 25px;
+        width: 40px;
+        height: 40px;
+        background: #e5b764;
+        border-radius: 7px;
+        color: #fff;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: auto;
+        right: 60px;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 15px;
+    }
+}

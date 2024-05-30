@@ -218,9 +218,15 @@ img {
     display: block;
     padding-bottom: 100%;
 }
+.image-wrapper-150 {
+    position: relative;
+    display: block;
+    padding-bottom: 150%;
+}
 
 .image-wrapper img,
-.image-wrapper-full img {
+.image-wrapper-full img,
+.image-wrapper-150 img {
     position: absolute;
     object-fit: cover;
     width: 100%;

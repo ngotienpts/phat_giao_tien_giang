@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var autoSlides = document.querySelectorAll(".js__swiperAutoContainer");
     var twoSlides = document.querySelectorAll(".js__twoSlidesContainer");
     var fourSlides = document.querySelectorAll(".js__fourSlidesContainer");
+    var fiveSlides = document.querySelectorAll(".js__fiveSlidesContainer");
 
     const app = {
         // su ly cac su kien
@@ -123,6 +124,41 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
         },
+        sliderFiveItems: function () {
+            if (fiveSlides) {
+                fiveSlides.forEach((item) => {
+                    var slider = item.querySelector(".js__fiveSlide");
+                    var next = item.querySelector(".swiper-button-next");
+                    var prev = item.querySelector(".swiper-button-prev");
+                    new Swiper(slider, {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                        slidesPerGroup: 1,
+                        loop: true,
+                        navigation: {
+                            nextEl: next || null,
+                            prevEl: prev || null,
+                        },
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            },
+                            1200: {
+                                slidesPerView: 5,
+                                spaceBetween: 30,
+                            },
+                        },
+                    });
+                });
+            }
+        },
         // scroll top
         scrollFunc: function () {
             if (backTop) {
@@ -159,6 +195,8 @@ document.addEventListener("DOMContentLoaded", function () {
             this.sliderTwoItems();
             // four slider
             this.sliderFourItems();
+            // five slider
+            this.sliderFiveItems();
             // window scroll
             this.windowScroll();
         },
