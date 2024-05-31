@@ -90,6 +90,14 @@
         }
     }
 }
+.heading-secondary {
+    &__wave {
+        img {
+            width: 100%;
+            height: auto !important;
+        }
+    }
+}
 .breadcrumb-primary {
     &__heading {
         .icon {
@@ -104,6 +112,9 @@
             font-weight: bold;
             margin-right: 15px;
         }
+    }
+    &__slide {
+        width: calc(100% - 150px);
     }
     .swiper-slide {
         width: auto !important;

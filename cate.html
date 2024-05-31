@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="shortcut icon"
+            href="./images/favicon/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="icon"
+            href="./images/favicon/favicon.ico"
+            type="image/x-icon"
+        />
+        <!-- end favicon -->
+        <title>Giáo Hội Phật Giáo Tỉnh Tiền Giang</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        <div id="fb-root"></div>
+        <script
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0"
+            nonce="ys2BeITq"
+        ></script>
+        <!-- notionfication -->
+        <div class="notification w-wrapper bg-red-69">
+            <div
+                class="w-1080 notification-container fs-14 text-white d-3xl-flex items-center justify-between py-12 gap-16"
+            >
+                <div class="notification-left d-3xl-flex items-center flex-1">
+                    <div class="fade-loading flex-0"></div>
+                    <p class="notification-text1 flex-0 uppercase">Thông báo</p>
+                    <marquee class="notification-text2 flex-1"
+                        >H.Gò Công Đông: Các chùa đồng hành cùng người dân vượt
+                        qua hạn mặn</marquee
+                    >
+                </div>
+                <div class="notification-right flex-0">
+                    <img
+                        src="./images/svg/Close.svg"
+                        alt=""
+                        class="notification-right__img pointer"
+                    />
+                </div>
+            </div>
+        </div>
+        <!-- end notionfication -->
+        <!-- header -->
+        <header id="header" class="header relative bg-yellow-e3 w-wrapper">
+            <!-- pc -->
+            <div class="header-container w-1080 d-3xl-flex d-lg-none">
+                <!-- left -->
+                <div class="header-left flex-0">
+                    <a href="#" class="header-left__logo">
+                        <img src="./images/svg/logo_1.svg" alt="" />
+                    </a>
+                </div>
+                <!-- end left -->
+
+                <!-- right -->
+                <div class="header-right flex-1">
+                    <!-- top -->
+                    <div
+                        class="header-top d-3xl-flex items-center justify-between"
+                    >
+                        <div
+                            class="header-top__heading fs-18 fw-700 text-red-6d uppercase"
+                        >
+                            Giáo hội phật giáo tỉnh Tiền Giang
+                        </div>
+                        <div class="header-top__action d-3xl-flex items-center">
+                            <div
+                                class="header-top__social d-3xl-flex items-center"
+                            >
+                                <a
+                                    href="#"
+                                    class="header-top__social-item header-top__fb"
+                                >
+                                    <img
+                                        src="./images/svg/Facebook.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <a
+                                    href="#"
+                                    class="header-top__social-item header-top__twiiter"
+                                >
+                                    <img
+                                        src="./images/svg/Twitter.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <a
+                                    href="#"
+                                    class="header-top__social-item header-top__ytb"
+                                >
+                                    <img src="./images/svg/ytb.svg" alt="" />
+                                </a>
+                            </div>
+                            <div
+                                class="header-top__weather text-red-6d fs-12 d-3xl-flex items-center"
+                            >
+                                <span class="header-top__weather-location"
+                                    >Hà Nội</span
+                                >
+                                <span
+                                    class="header-top__weather-temperature fw-700"
+                                    >25*C / 61%</span
+                                >
+                                <div class="header-top__weather-img">
+                                    <img src="./images/svg/cloud.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="header-top__search js__showSearchPc">
+                                <img
+                                    src="./images/svg/search.svg"
+                                    alt=""
+                                    class="show-Pc"
+                                />
+                                <img
+                                    src="./images/svg/Close.svg"
+                                    alt=""
+                                    class="hidden-Pc"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end top -->
+
+                    <!-- navbar -->
+                    <ul class="navbar text-red-6d d-3xl-flex items-center">
+                        <!-- item -->
+                        <li class="navbar-item active">
+                            <a href="#" class="navbar-link">
+                                <img src="./images/svg/Home.svg" alt="" />
+                            </a>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Giới thiệu</a>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Tin tức</a>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">PG Tiền Giang</a>
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">PG Huyện Thị</a>
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Video</a>
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Audio</a>
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Tham luận sách</a>
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                        <!-- item -->
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link"
+                                >Ban TTTT Trung ương</a
+                            >
+                            <ul class="navbar-dropdown">
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                                <li class="navbar-dropdown__item">
+                                    <a href="#" class="navbar-dropdown__link"
+                                        >Cate 1</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end item -->
+                    </ul>
+                    <!-- end navbar -->
+
+                    <!-- search -->
+                    <div class="search-box js__searchPc">
+                        <form action="" class="search-box__form">
+                            <input
+                                type="text"
+                                class="search-box__input js__focusSearchPc"
+                                placeholder="Tìm kiếm..."
+                            />
+                            <button class="search-box__icon">
+                                <img src="./images/svg/search.svg" alt="" />
+                            </button>
+                        </form>
+                    </div>
+                    <!-- end search -->
+                </div>
+                <!-- end right -->
+            </div>
+            <!-- end pc -->
+
+            <!-- mb -->
+            <div
+                class="header-container__mb w-1080 d-3xl-none d-lg-flex items-center justify-between py-10"
+            >
+                <!-- left -->
+                <div class="left js__subMenuContainer">
+                    <div class="left-icon js__showSubMenu">
+                        <img src="./images/svg/bar.svg" alt="" />
+                    </div>
+                    <div class="sub-menu js__subMenu">
+                        <div
+                            class="sub-menu__heading d-3xl-flex items-center justify-between"
+                        >
+                            <h3 class="text-white fs-24">Menu</h3>
+                            <div
+                                class="sub-menu__headingClose flex-0 p-10 js__closeSubMenu"
+                            >
+                                <img src="./images/svg/close.svg" alt="" />
+                            </div>
+                        </div>
+                        <!-- list -->
+                        <ul class="sub-menu__list">
+                            <li class="sub-menu__item">
+                                <a href="#">Giới thiệu</a>
+                                <ul class="pl-20">
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu__item">
+                                <a href="#">Giới thiệu</a>
+                                <ul class="pl-20">
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                    <li><a href="#">Gioi thieu 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- end list -->
+                    </div>
+                </div>
+                <!-- end left -->
+                <!-- center -->
+                <div class="center">
+                    <a href="#" class="center-logo">
+                        <img src="./images/svg/logo_1.svg" alt="" />
+                    </a>
+                </div>
+                <!-- end center -->
+                <!-- right -->
+                <div class="right">
+                    <div class="right-searchMb js__showSearchMb">
+                        <img
+                            src="./images/svg/search.svg"
+                            alt=""
+                            class="show-Pc"
+                        />
+                        <img
+                            src="./images/svg/Close.svg"
+                            alt=""
+                            class="hidden-Pc"
+                        />
+                    </div>
+                </div>
+                <!-- end right -->
+
+                <!-- search -->
+                <div class="search-box js__searchMb">
+                    <form action="" class="search-box__form">
+                        <input
+                            type="text"
+                            class="search-box__input js__focusSearchMb"
+                            placeholder="Tìm kiếm..."
+                        />
+                        <button class="search-box__icon">
+                            <img src="./images/svg/search.svg" alt="" />
+                        </button>
+                    </form>
+                </div>
+                <!-- end search -->
+            </div>
+            <!-- end mb -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            <!-- breadcrumb -->
+            <div class="breadcrumb-wrapper w-wrapper">
+                <ul
+                    class="breadcrumb w-1080 mt-20 border-e5 pb-10 d-3xl-flex items-center"
+                >
+                    <li class="breadcrumb-item fs-16 lh-24">
+                        <a href="#" class="breadcrumb-link">Tiêu dùng</a>
+                    </li>
+                    <li class="breadcrumb-item fs-16 lh-24">
+                        <a href="#" class="breadcrumb-link">Sub</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end breadcrumb -->
+
+            <section class="box-wrapper w-wrapper relative z-20 over-hidden">
+                <div class="box-inner w-1080">
+                    <!-- left -->
+                    <div class="box-left">
+                        <!-- primary -->
+                        <div class="cate-primary">
+                            <!-- large -->
+                            <div class="article__large mb-20">
+                                <!-- img -->
+                                <div class="article__img">
+                                    <a href="#" class="image-wrapper">
+                                        <img src="./images/3.jpg" alt="" />
+                                        <div class="play-primary">
+                                            <img
+                                                src="./images/svg/ic_image_48px.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- end img -->
+                                <!-- content -->
+                                <div class="article__content">
+                                    <h1
+                                        class="article__title fs-24 fw-700 text-red-48 uppercase"
+                                    >
+                                        <a href="#" class="fix-text3"
+                                            >Vực dậy nghề muối, tăng thu nhập
+                                            cho diêm dân</a
+                                        >
+                                    </h1>
+                                    <div
+                                        class="article__des fs-16 text-gray-44 mt-12 lh-140"
+                                    >
+                                        <p class="fix-text4">
+                                            Là đất nước sản xuất muối tiềm năng,
+                                            nhưng mỗi năm Việt Nam vẫn phải nhập
+                                            khẩu muối để đáp ứng nhu cầu trong
+                                            nước. Muối nội địa có giá thành cao,
+                                            chất lượng thấp, rất khó cạnh tranh
+                                            với muối nhập khẩu nên khó tiêu thụ.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- end content -->
+                            </div>
+                            <!-- end large -->
+
+                            <!-- small -->
+                            <div class="article__small d-3xl-grid col-3">
+                                <!-- article -->
+                                <div class="article">
+                                    <!-- img -->
+                                    <div class="article__img">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content pt-10">
+                                        <h3 class="article__title fs-16 fw-600">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article">
+                                    <!-- img -->
+                                    <div class="article__img">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/ic_image_48px.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content pt-10">
+                                        <h3 class="article__title fs-16 fw-600">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article">
+                                    <!-- img -->
+                                    <div class="article__img">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content pt-10">
+                                        <h3 class="article__title fs-16 fw-600">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                            </div>
+                            <!-- end small -->
+                        </div>
+                        <!-- end primary -->
+
+                        <!-- secondary -->
+                        <div class="cate-secondary">
+                            <div class="articles">
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                            </div>
+                            <div class="top my-20">
+                                <!-- heading -->
+                                <div
+                                    class="heading-primary d-3xl-flex items-center mb-20"
+                                >
+                                    <div class="heading-primary__icon mr-12">
+                                        <img
+                                            src="./images/svg/lotus.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h2
+                                        class="heading-primary__title text-red-6d fs-24 fw-700 uppercase"
+                                    >
+                                        <a href="#">Sự kiện nổi bật</a>
+                                    </h2>
+                                </div>
+                                <!-- end heading -->
+                                <!-- articles -->
+                                <div
+                                    class="top-articles d-3xl-grid col-3 gap-20"
+                                >
+                                    <!-- article -->
+                                    <div class="article">
+                                        <!-- img -->
+                                        <div class="article__img">
+                                            <a href="#" class="image-wrapper">
+                                                <img
+                                                    src="./images/3.jpg"
+                                                    alt=""
+                                                />
+                                                <div class="play-primary">
+                                                    <img
+                                                        src="./images/svg/play.svg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article__content pt-16">
+                                            <h3
+                                                class="article__title fs-16 fw-600"
+                                            >
+                                                <a href="#" class="fix-text3"
+                                                    >Vực dậy nghề muối, tăng thu
+                                                    nhập cho diêm dân</a
+                                                >
+                                            </h3>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article">
+                                        <!-- img -->
+                                        <div class="article__img">
+                                            <a href="#" class="image-wrapper">
+                                                <img
+                                                    src="./images/3.jpg"
+                                                    alt=""
+                                                />
+                                                <div class="play-primary">
+                                                    <img
+                                                        src="./images/svg/play.svg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article__content pt-16">
+                                            <h3
+                                                class="article__title fs-16 fw-600"
+                                            >
+                                                <a href="#" class="fix-text3"
+                                                    >Vực dậy nghề muối, tăng thu
+                                                    nhập cho diêm dân</a
+                                                >
+                                            </h3>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                    <!-- article -->
+                                    <div class="article">
+                                        <!-- img -->
+                                        <div class="article__img">
+                                            <a href="#" class="image-wrapper">
+                                                <img
+                                                    src="./images/3.jpg"
+                                                    alt=""
+                                                />
+                                                <div class="play-primary">
+                                                    <img
+                                                        src="./images/svg/play.svg"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article__content pt-16">
+                                            <h3
+                                                class="article__title fs-16 fw-600"
+                                            >
+                                                <a href="#" class="fix-text3"
+                                                    >Vực dậy nghề muối, tăng thu
+                                                    nhập cho diêm dân</a
+                                                >
+                                            </h3>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                    <!-- end article -->
+                                </div>
+                                <!-- end articles -->
+                            </div>
+                            <div class="articles">
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article d-3xl-flex py-15">
+                                    <!-- img -->
+                                    <div class="article__img flex-0 w-40">
+                                        <a href="#" class="image-wrapper">
+                                            <img src="./images/3.jpg" alt="" />
+                                            <div class="play-primary">
+                                                <img
+                                                    src="./images/svg/play.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article__content flex-1 pl-15">
+                                        <h3 class="article__title fs-20 fw-700">
+                                            <a href="#" class="fix-text3"
+                                                >Vực dậy nghề muối, tăng thu
+                                                nhập cho diêm dân</a
+                                            >
+                                        </h3>
+                                        <div
+                                            class="time-public d-3xl-flex items-center fs-14 pt-12"
+                                        >
+                                            <div class="text-red-6d">
+                                                <a href="#">Tin tức</a>
+                                            </div>
+                                            <span
+                                                class="d-2xl-inline-block text-gray-77"
+                                                >&nbsp;-&nbsp;Hôm nay,
+                                                3/10/2017, 16:08</span
+                                            >
+                                        </div>
+                                        <div
+                                            class="article__des fs-14 text-gray-44 mt-12 lh-140"
+                                        >
+                                            <p class="fix-text4">
+                                                Là đất nước sản xuất muối tiềm
+                                                năng, nhưng mỗi năm Việt Nam vẫn
+                                                phải nhập khẩu muối để đáp ứng
+                                                nhu cầu trong nước. Muối nội địa
+                                                có giá thành cao, chất lượng
+                                                thấp, rất khó cạnh tranh với
+                                                muối nhập khẩu nên khó tiêu thụ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                            </div>
+                        </div>
+                        <!-- end secondary -->
+
+                        <!-- pagination -->
+                        <ul
+                            class="pagination d-3xl-flex items-center fs-14 my-30"
+                        >
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-link">
+                                    <img
+                                        src="./images/svg/prev-arrow.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="pagination-item active">
+                                <a href="#" class="pagination-link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-link">
+                                    <img
+                                        src="./images/svg/next-arrow.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end pagination -->
+                    </div>
+                    <!-- end left -->
+                    <!-- right -->
+                    <div class="box-right">
+                        <!-- ads right -->
+                        <div class="ads-right mb-20">
+                            <a href="#">
+                                <img src="./images/ads_right.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- end ads right -->
+
+                        <!-- most read -->
+                        <div class="most-read mb-20">
+                            <!-- heading -->
+                            <h2
+                                class="heading-secondary fs-24 fw-700 text-red-6d mb-20"
+                            >
+                                <a href="#">Đọc nhiều</a>
+                                <div class="mt-4 heading-secondary__wave">
+                                    <img src="./images/wave.png" alt="" />
+                                </div>
+                            </h2>
+                            <!-- end heading -->
+
+                            <!-- list -->
+                            <ul class="most-read__list">
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        1
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        2
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        3
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        4
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        5
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        6
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 d-3xl-flex items-center"
+                                >
+                                    <p
+                                        class="most-read__number fs-36 text-gray-e3"
+                                    >
+                                        7
+                                    </p>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                            </ul>
+                            <!-- end list -->
+                        </div>
+                        <!-- end most read -->
+
+                        <!-- chon loc -->
+                        <div class="most-read cmt-box-cate mb-20">
+                            <!-- heading -->
+                            <h2
+                                class="heading-secondary fs-24 fw-700 text-red-6d mb-20"
+                            >
+                                <a href="#">Chọn lọc</a>
+                                <div class="mt-4 heading-secondary__wave">
+                                    <img src="./images/wave.png" alt="" />
+                                </div>
+                            </h2>
+                            <!-- end heading -->
+
+                            <!-- list -->
+                            <ul class="most-read__list">
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li
+                                    class="most-read__item py-12 border-e5 d-3xl-flex"
+                                >
+                                    <div class="cmt-box-cate__img">
+                                        <img
+                                            src="./images/svg/cmt_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="most-read__content ml-10">
+                                        <h3
+                                            class="most-read__title fs-14 font-roboto lh-150 fw-700"
+                                        >
+                                            <a href="#" class=""
+                                                >ADB slashes Malaysia and
+                                                Vietnam annual growth
+                                                forecasts</a
+                                            >
+                                        </h3>
+                                    </div>
+                                </li>
+                                <!-- end item -->
+                            </ul>
+                            <!-- end list -->
+                        </div>
+                        <!-- end chon loc -->
+
+                        <!-- tu dien phat hoc -->
+                        <div class="buddhist-dictionary mb-20">
+                            <!-- heading -->
+                            <h2
+                                class="heading-secondary fs-24 fw-700 text-red-6d mb-20"
+                            >
+                                <span>Từ điển phật học</span>
+                                <div class="mt-4 heading-secondary__wave">
+                                    <img src="./images/wave.png" alt="" />
+                                </div>
+                            </h2>
+                            <!-- end heading -->
+
+                            <!-- alphabet -->
+                            <ul
+                                class="alphabet d-3xl-flex items-center fs-16 text-red-6d uppercase fw-600 gap-16"
+                            >
+                                <li>
+                                    <a href="#">A</a>
+                                </li>
+                                <li>
+                                    <a href="#">B</a>
+                                </li>
+                                <li>
+                                    <a href="#">c</a>
+                                </li>
+                                <li>
+                                    <a href="#">d</a>
+                                </li>
+                                <li>
+                                    <a href="#">e</a>
+                                </li>
+                                <li>
+                                    <a href="#">f</a>
+                                </li>
+                                <li>
+                                    <a href="#">g</a>
+                                </li>
+                                <li>
+                                    <a href="#">h</a>
+                                </li>
+                                <li>
+                                    <a href="#">i</a>
+                                </li>
+                                <li>
+                                    <a href="#">j</a>
+                                </li>
+                                <li>
+                                    <a href="#">k</a>
+                                </li>
+                                <li>
+                                    <a href="#">l</a>
+                                </li>
+                                <li>
+                                    <a href="#">m</a>
+                                </li>
+                                <li>
+                                    <a href="#">n</a>
+                                </li>
+                                <li>
+                                    <a href="#">o</a>
+                                </li>
+                                <li>
+                                    <a href="#">p</a>
+                                </li>
+                                <li>
+                                    <a href="#">q</a>
+                                </li>
+                                <li>
+                                    <a href="#">r</a>
+                                </li>
+                                <li>
+                                    <a href="#">s</a>
+                                </li>
+                                <li>
+                                    <a href="#">t</a>
+                                </li>
+                                <li>
+                                    <a href="#">u</a>
+                                </li>
+                                <li>
+                                    <a href="#">v</a>
+                                </li>
+                                <li>
+                                    <a href="#">w</a>
+                                </li>
+                                <li>
+                                    <a href="#">X</a>
+                                </li>
+                                <li>
+                                    <a href="#">y</a>
+                                </li>
+                                <li>
+                                    <a href="#">z</a>
+                                </li>
+                            </ul>
+                            <!-- end alphabet -->
+
+                            <!-- form -->
+                            <div class="buddhist-dictionary__form mt-20">
+                                <form method="post" action="">
+                                    <input
+                                        class="buddhist-dictionary__input"
+                                        type="text"
+                                        placeholder="Từ khoá tìm kiếm"
+                                    />
+                                    <button
+                                        class="btn buddhist-dictionary__btn"
+                                        type="submit"
+                                    >
+                                        Tìm kiếm
+                                    </button>
+                                </form>
+                            </div>
+                            <!-- end form -->
+                        </div>
+                        <!-- end tu dien phat hoc -->
+
+                        <!-- du lieu phat giao -->
+                        <div class="buddhist-data mb-20">
+                            <!-- heading -->
+                            <h2
+                                class="heading-secondary fs-24 fw-700 text-red-6d mb-20"
+                            >
+                                <span>Dự liệu phật giáo</span>
+                                <div class="mt-4 heading-secondary__wave">
+                                    <img src="./images/wave.png" alt="" />
+                                </div>
+                            </h2>
+                            <!-- end heading -->
+
+                            <div class="buddhist-data__content">
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_1.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Đức phật</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_2.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Tự điển</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_3.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Giáo hội</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_4.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Chùa</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_5.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Sách</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                                <!-- item -->
+                                <div class="buddhist-data__item">
+                                    <div class="buddhist-data__img">
+                                        <img
+                                            src="./images/svg/img_6.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <h3 class="buddhist-data__title">
+                                        <a href="#">Tăng sỹ</a>
+                                    </h3>
+                                </div>
+                                <!-- end item -->
+                            </div>
+                        </div>
+                        <!-- end du lieu phat giao -->
+
+                        <!-- ads right -->
+                        <div class="ads-right mb-20">
+                            <a href="#">
+                                <img src="./images/ads_right.jpg" alt="" />
+                            </a>
+                        </div>
+                        <!-- end ads right -->
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+
+            <!-- ads center -->
+            <div class="ads-center">
+                <img src="./images/ads_center.png" alt="" />
+            </div>
+            <!-- end ads center -->
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer relative z-20 over-hidden">
+            <!-- back top -->
+            <div id="back-top">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1em"
+                    viewBox="0 0 384 512"
+                >
+                    <path
+                        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                        fill="#fff"
+                    />
+                </svg>
+            </div>
+            <!-- end back top -->
+            <div class="footer-wrapper w-wrapper relative z-30">
+                <div class="footer-container w-1080">
+                    <h2
+                        class="footer-heading1 text-center fw-700 fs-24 mb-16 uppercase"
+                    >
+                        Giáo hội phật giáo việt nam tỉnh Tiền Giang
+                    </h2>
+                    <h3
+                        class="footer-heading2 text-center fw-700 fs-20 uppercase"
+                    >
+                        Ban thông tin truyền thông
+                    </h3>
+                    <!-- navbar -->
+                    <ul
+                        class="footer-navbar fs-14 fw-600 uppercase d-3xl-flex items-center justify-between"
+                    >
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                        <li class="footer-navbar__item">
+                            <a href="#" class="footer-navbar__link"
+                                >Giới thiệu</a
+                            >
+                        </li>
+                    </ul>
+                    <!-- end navbar -->
+                    <!-- footer content -->
+                    <div class="footer-content d-3xl-grid col-3 gap-20">
+                        <div class="footer-content__left">
+                            <div
+                                class="fb-page"
+                                data-href="https://www.facebook.com/phatgiao.org.vn"
+                                data-tabs=""
+                                data-width=""
+                                data-height=""
+                                data-small-header="false"
+                                data-adapt-container-width="true"
+                                data-hide-cover="false"
+                                data-show-facepile="true"
+                            >
+                                <blockquote
+                                    cite="https://www.facebook.com/phatgiao.org.vn"
+                                    class="fb-xfbml-parse-ignore"
+                                >
+                                    <a
+                                        href="https://www.facebook.com/phatgiao.org.vn"
+                                        >Phật giáo Việt Nam</a
+                                    >
+                                </blockquote>
+                            </div>
+                            <div
+                                class="ytb-page d-3xl-flex items-center justify-between fs-14 text-white mt-8"
+                            >
+                                <a href="#" class="d-3xl-flex items-center">
+                                    <div class="mr-10">
+                                        <img
+                                            src="./images/svg/ytb-w.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <span>Lượt đăng ký</span>
+                                </a>
+                                <a href="#">Đăng ký</a>
+                            </div>
+                        </div>
+                        <div class="footer-content__center">
+                            <div
+                                class="heading-primary d-3xl-flex items-center mb-20"
+                            >
+                                <div class="heading-primary__icon mr-12">
+                                    <img src="./images/svg/lotus.svg" alt="" />
+                                </div>
+                                <h2
+                                    class="heading-primary__title text-red-6d fs-18 fw-700"
+                                >
+                                    <span>Kênh truyền thông liên quan</span>
+                                </h2>
+                            </div>
+                            <ul
+                                class="footer-content__center-list fs-16 fw-700"
+                            >
+                                <li class="mb-10">
+                                    <a href="#" class="">Phật Giáo Việt Nam</a>
+                                </li>
+                                <li class="mb-10">
+                                    <a href="#" class=""
+                                        >Facebook Phật Giáo Tiền Giang</a
+                                    >
+                                </li>
+                                <li class="mb-10">
+                                    <a href="#" class=""
+                                        >Youtube Phật Giáo Tiền Giang</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-content__right">
+                            <p class="mb-10">
+                                Chỉ đạo thực hiện:
+                                <strong>Thượng tọa Thích Quảng Lộc</strong>
+                            </p>
+                            <p class="mb-10">
+                                Chịu trách nhiệm nội dung và biên tập:
+                                <strong>NS.Thích Nữ Diệu Tâm</strong> - ĐT:
+                                0983591172
+                            </p>
+                            <p class="mb-10">
+                                Email: bantruyenthongpgtg@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end footer content -->
+
+                    <!-- footer bot -->
+                    <div class="footer-bot mt-40 text-center fs-13">
+                        <p class="mb-4">
+                            <strong>Địa chỉ:</strong> Chùa Vĩnh Tràng, ấp Mỹ An,
+                            xã Mỹ Phong, TP.Mỹ Tho, tỉnh Tiền Giang
+                        </p>
+                        <p class="mb-10">
+                            <strong
+                                >Điện thoại: 0273.3978660 - 0273.3873427.
+                                Fax:073.3978660</strong
+                            >
+                        </p>
+                        <p>
+                            <strong
+                                >Copyright © 2024 PHẬT GIÁO TIỀN GIANG - Công
+                                nghệ bởi Explus.vn</strong
+                            >
+                        </p>
+                    </div>
+                    <!-- end footer bot -->
+                </div>
+            </div>
+            <div class="footer-gradient"></div>
+            <div class="footer-bg">
+                <img src="./images/bg_5.png" alt="" />
+            </div>
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/ResizeSensor.js"></script>
+        <script src="./js/theia-sticky-sidebar.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
