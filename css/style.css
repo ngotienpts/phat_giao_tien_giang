@@ -1392,6 +1392,14 @@ img {
   margin-right: 16px;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
 .header-container {
   gap: 40px;
   padding-top: 10px;
