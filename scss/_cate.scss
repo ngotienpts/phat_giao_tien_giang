@@ -179,3 +179,21 @@
         font-weight: 600;
     }
 }
+
+.video-primary {
+    &__container {
+        display: flex;
+        gap: 40px;
+        padding-bottom: 24px;
+        border-bottom: 5px solid #f0eff4;
+        margin-bottom: 20px;
+
+        .article__large {
+            flex: 1;
+        }
+        .article__small {
+            flex-shrink: 0;
+            width: 300px;
+        }
+    }
+}
