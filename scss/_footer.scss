@@ -47,6 +47,15 @@
                 color: #fff;
             }
         }
+        .fb-page.fb_iframe_widget {
+            width: 100%;
+            span {
+                width: 100% !important;
+            }
+        }
+        iframe {
+            width: 100% !important;
+        }
     }
     &-content__center {
         &-list {
